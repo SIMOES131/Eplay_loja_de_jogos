@@ -10,6 +10,7 @@ export const Overlay = styled.div`
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   background-color: #000;
   opacity: 0.7;
 `
@@ -20,9 +21,9 @@ export const CartContainer = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
+  display: none;
   justify-content: flex-end;
   z-index: 1;
-  display: none;
 
   &.is-open {
     display: flex;
